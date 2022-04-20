@@ -1,0 +1,57 @@
+[
+    {
+        "idProducto":1,
+        "nombreProducto":"Duo Crispy",
+        "precio":129.00,
+        "imagenProducto":"img/Comida/McDonalds/Crispy.png"
+    },
+    {
+        "idProducto":2,
+        "nombreProducto":"Big Mac",
+        "precio":127.00,
+        "imagenProducto":"img/Comida/McDonalds/Big Mac.png"
+    },
+    {
+        "idProducto":3,
+        "nombreProducto":"Cajita Feliz",
+        "precio":161.00,
+        "imagenProducto":"img/Comida/McDonalds/Cajita Feliz.png"
+    },
+    {
+        "idProducto":4,
+        "nombreProducto":"Hawaiana",
+        "precio":320.00,
+        "imagenProducto":"img/Comida/Dominos pizza/Hawaiana.png"
+    },
+    {
+        "idProducto":5,
+        "nombreProducto":"Veggie",
+        "precio":350.00,
+        "imagenProducto":"img/Comida/Dominos pizza/Veggie.png"
+    },
+    {
+        "idProducto":6,
+        "nombreProducto":"Pepperoni",
+        "precio":250.00,
+        "imagenProducto":"img/Comida/Dominos pizza/Pepperoni.png"
+    },
+    {
+        "idProducto":7,
+        "nombreProducto":"Pescado Frito",
+        "precio":380.00,
+        "imagenProducto":"img/Comida/El morito/Pescado frito.png"
+    },
+    {
+        "idProducto":8,
+        "nombreProducto":"Langosta al ajillo",
+        "precio":480.00,
+        "imagenProducto":"img/Comida/El morito/Langosta al ajillo.png"
+    },
+    {
+        "idProducto":9,
+        "nombreProducto":"Filete relleno de camarones",
+        "precio":420.00,
+        "imagenProducto":"img/Comida/El morito/Filete relleno de camarones.png"
+    }
+    
+]

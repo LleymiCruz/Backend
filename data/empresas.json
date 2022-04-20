@@ -1,0 +1,29 @@
+[
+    {
+        "idEmpresa":1,
+        "nombreEmpresa":"McDonalds",
+        "baner":"img/Comida/McDonalds/BanerMcDonalds.png",
+        "logo":"img/Comida/McDonalds/LogoMcDonalds.png",
+        "calificacion":4,
+        "productos":[1, 2, 3]
+        
+    },
+    {
+        "idEmpresa":2,
+        "nombreEmpresa":"Domino´s Pizza",
+        "baner":"img/Comida/Dominos pizza/BanerDominos.png",
+        "logo":"img/Comida/Dominos pizza/LogoDominos.png",
+        "calificacion":5,
+        "productos":[4, 5, 6]
+    },
+    {
+        "idEmpresa":3,
+        "nombreEmpresa":"El Morito",
+        "baner":"img/Comida/El morito/BanerElMorito.png",
+        "logo":"img/Comida/Dominos pizza/LogoEl Morito.png",
+        "calificacion":5,
+        "productos":[7, 8, 9]
+    }
+
+
+]
