@@ -23,7 +23,32 @@
         "logo":"img/Comida/Dominos pizza/LogoEl Morito.png",
         "calificacion":5,
         "productos":[7, 8, 9]
+    },
+    {
+        "idEmpresa":4,
+        "nombreEmpresa":"Útiles de Honduras",
+        "baner":"img/Utiles/Utiles de Honduras/BanerUtiles.png",
+        "logo":"img/Comida/Dominos pizza/LogoUtiles.png",
+        "calificacion":5,
+        "productos":[10, 11, 12]
+    },
+    {
+        "idEmpresa":5,
+        "nombreEmpresa":"Pacasa",
+        "baner":"img/Utiles/Utiles de Honduras/BanerPacasa.png",
+        "logo":"img/Comida/Dominos pizza/LogoPacasa.png",
+        "calificacion":3,
+        "productos":[13, 14, 15]
+    },
+    {
+        "idEmpresa":6,
+        "nombreEmpresa":"Acosa",
+        "baner":"img/Utiles/Utiles de Honduras/BanerAcosa.png",
+        "logo":"img/Comida/Dominos pizza/LogoAcosa.png",
+        "calificacion":4,
+        "productos":[16, 17, 18]
     }
+    
 
 
 ]

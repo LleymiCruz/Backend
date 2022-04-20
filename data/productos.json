@@ -52,6 +52,63 @@
         "nombreProducto":"Filete relleno de camarones",
         "precio":420.00,
         "imagenProducto":"img/Comida/El morito/Filete relleno de camarones.png"
+    },
+    {
+        "idProducto":10,
+        "nombreProducto":"Agenda Diaria",
+        "precio":465.00,
+        "imagenProducto":"img/Utiles/Utiles de Honduras/Agenda diaria.png"
+    },
+    {
+        "idProducto":11,
+        "nombreProducto":"Notas Neón",
+        "precio":63.00,
+        "imagenProducto":"img/Utiles/Utiles de Honduras/Notas neon.png"
+    },
+    {
+        "idProducto":12,
+        "nombreProducto":"Portaminas Filgo",
+        "precio":15.00,
+        "imagenProducto":"img/Utiles/Utiles de Honduras/Portamonas filgo.png"
+    },
+    {
+        "idProducto":13,
+        "nombreProducto":"Acuarelas Mate",
+        "precio":180.00,
+        "imagenProducto":"img/Utiles/Pacasa/Acuarelas mate.png"
+    },
+    {
+        "idProducto":14,
+        "nombreProducto":"Rotuladores",
+        "precio":63.00,
+        "imagenProducto":"img/Utiles/Pacasa/Rotuladores.png"
+    },
+    {
+        "idProducto":15,
+        "nombreProducto":"Lápices de colores",
+        "precio":31.00,
+        "imagenProducto":"img/Utiles/Pacasa/Lapices de colores.png"
+    },
+    {
+        "idProducto":16,
+        "nombreProducto":"Archivador",
+        "precio":67.00,
+        "imagenProducto":"img/Utiles/Acosa/Archivador.png"
+    },
+    {
+        "idProducto":17,
+        "nombreProducto":"Perforadora",
+        "precio":88.00,
+        "imagenProducto":"img/Utiles/Acosa/Perforadora.png"
+    },
+    {
+        "idProducto":18,
+        "nombreProducto":"Tablero T",
+        "precio":53.00,
+        "imagenProducto":"img/Utiles/Acosa/Tablero t.png"
     }
+    
+    
+    
     
 ]
