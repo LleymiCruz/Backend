@@ -106,7 +106,117 @@
         "nombreProducto":"Tablero T",
         "precio":53.00,
         "imagenProducto":"img/Utiles/Acosa/Tablero t.png"
+    },
+    {
+        "idProducto":19,
+        "nombreProducto":"Magnatil",
+        "precio":569.00,
+        "imagenProducto":"img/Farmacia/F Kilesa/Magnatil.png"
+    },
+    {
+        "idProducto":20,
+        "nombreProducto":"Daibion Cap",
+        "precio":682.00,
+        "imagenProducto":"img/Farmacia/F Kilesa/Daibion Cap.png"
+    },
+    {
+        "idProducto":21,
+        "nombreProducto":"Gamabenceno Plus Cream",
+        "precio":220.00,
+        "imagenProducto":"img/Farmacia/F Kilesa/Gamabenceno Crema.png"
+    },
+    {
+        "idProducto":22,
+        "nombreProducto":"Pacinos(Pasta Cabello)",
+        "precio":374.50,
+        "imagenProducto":"img/Farmacia/F Siman/Pacinos pasta cabello.png"
+    },
+    {
+        "idProducto":23,
+        "nombreProducto":"Haan Satinizante",
+        "precio":141.35,
+        "imagenProducto":"img/Farmacia/F Siman/Haan satinizante.png"
+    },
+    {
+        "idProducto":24,
+        "nombreProducto":"Sudagrip Jarabe",
+        "precio":119.62,
+        "imagenProducto":"img/Farmacia/F Siman/Sudagrip jarabe.png"
+    },
+    {
+        "idProducto":25,
+        "nombreProducto":"Vitamina C 500mg",
+        "precio":97.60,
+        "imagenProducto":"img/Farmacia/F del Ahorro/Vitamina C 500mg.png"
+    },
+    {
+        "idProducto":26,
+        "nombreProducto":"Daibion Cap",
+        "precio":642.32,
+        "imagenProducto":"img/Farmacia/F del Ahorro/Daibion Cap.png"
+    },
+    {
+        "idProducto":27,
+        "nombreProducto":"Triple Antibiotico 200gr",
+        "precio":161.66,
+        "imagenProducto":"img/Farmacia/F del Ahorro/Triple antibiotico.png"
+    },
+    {
+        "idProducto":28,
+        "nombreProducto":"Jamon de Pavo (1/2L)",
+        "precio":69.90,
+        "imagenProducto":"img/Supermercado/La Colonia/Jamon de pavo.png"
+    },
+    {
+        "idProducto":29,
+        "nombreProducto":"Leche Evaporada (554gr)",
+        "precio":128.00,
+        "imagenProducto":"img/Supermercado/La Colonia/Leche evaporada.png"
+    },
+    {
+        "idProducto":30,
+        "nombreProducto":"Leche Condensada (395gr)",
+        "precio":43.90,
+        "imagenProducto":"img/Supermercado/La Colonia/Leche condensada.png"
+    },
+    {
+        "idProducto":31,
+        "nombreProducto":"Crema Sula (454gr)",
+        "precio":25.90,
+        "imagenProducto":"img/Supermercado/Despensa Familiar/Crema sula.png"
+    },
+    {
+        "idProducto":32,
+        "nombreProducto":"Yogurt Melocoton (125gr)",
+        "precio":18.00,
+        "imagenProducto":"img/Supermercado/Despensa Familiar/Yogurt.png"
+    },
+    {
+        "idProducto":33,
+        "nombreProducto":"Uva Roja (1L)",
+        "precio":43.90,
+        "imagenProducto":"img/Supermercado/Despensa Familiar/uva.png"
+    },
+    {
+        "idProducto":34,
+        "nombreProducto":"Mayonesa Clasica (400gr)",
+        "precio":43.40,
+        "imagenProducto":"img/Supermercado/Paiz/Mayonesa clasica.png"
+    },
+    {
+        "idProducto":35,
+        "nombreProducto":"Cerveza Port Royal",
+        "precio":17.50,
+        "imagenProducto":"img/Supermercado/Paiz/Cerveza port royal.png"
+    },
+    {
+        "idProducto":36,
+        "nombreProducto":"Frito Catracho",
+        "precio":38.00,
+        "imagenProducto":"img/Supermercado/Paiz/Frito catracho.png"
     }
+    
+    
     
     
     

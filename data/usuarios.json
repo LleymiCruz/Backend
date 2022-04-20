@@ -1,0 +1,20 @@
+[
+    {
+        "idUsuario":1,
+        "nombreUsuario":"Juan",
+        "apellidoUsuario":"Perez",
+        "correo":"juan@gmail.com",
+        "contraseña":"juan876",
+        "ordenes":[1]
+    },
+    {
+        "idUsuario":2,
+        "nombreUsuario":"Sherril",
+        "apellidoUsuario":"Blossom",
+        "correo":"sherril@gmail.com",
+        "contraseña":"cereza2000",
+        "ordenes":[2]
+    }
+    
+
+]

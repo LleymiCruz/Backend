@@ -21,7 +21,7 @@
         "idCategoria":4,
         "nombreCategoria":"Supermercado",
         "imagenCategoria":"img/Supermercado.png",
-        "empresas":[]
+        "empresas":[10, 11, 12]
     },
     {
         "idCategoria":5,

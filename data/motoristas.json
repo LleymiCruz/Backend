@@ -1,0 +1,20 @@
+[
+    {
+        "idMotorista":1,
+        "nombreMotorista":"Alberto",
+        "apellidoMotorista":"Perez",
+        "correo":"Alberto@gmail.com",
+        "contraseña":"Ap876",
+        "ordenesTomadas":[1]
+    },
+    {
+        "idUsuario":2,
+        "nombreUsuario":"Joel",
+        "apellidoUsuario":"Andrés",
+        "correo":"andres@gmail.com",
+        "contraseña":"JA2000",
+        "ordenesTomadas":[2]
+    }
+    
+
+]

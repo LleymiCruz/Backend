@@ -28,26 +28,76 @@
         "idEmpresa":4,
         "nombreEmpresa":"Útiles de Honduras",
         "baner":"img/Utiles/Utiles de Honduras/BanerUtiles.png",
-        "logo":"img/Comida/Dominos pizza/LogoUtiles.png",
+        "logo":"img/Utiles/Utiles de Honduras/LogoUtiles.png",
         "calificacion":5,
         "productos":[10, 11, 12]
     },
     {
         "idEmpresa":5,
         "nombreEmpresa":"Pacasa",
-        "baner":"img/Utiles/Utiles de Honduras/BanerPacasa.png",
-        "logo":"img/Comida/Dominos pizza/LogoPacasa.png",
+        "baner":"img/Utiles/Pacasa/BanerPacasa.png",
+        "logo":"img/Utiles/Pacasa/LogoPacasa.png",
         "calificacion":3,
         "productos":[13, 14, 15]
     },
     {
         "idEmpresa":6,
         "nombreEmpresa":"Acosa",
-        "baner":"img/Utiles/Utiles de Honduras/BanerAcosa.png",
-        "logo":"img/Comida/Dominos pizza/LogoAcosa.png",
+        "baner":"img/Utiles/Acosa/BanerAcosa.png",
+        "logo":"img/Utiles/Acosa/LogoAcosa.png",
         "calificacion":4,
         "productos":[16, 17, 18]
+    },
+    {
+        "idEmpresa":7,
+        "nombreEmpresa":"Farmacias Kielsa",
+        "baner":"img/Farmacia/F Kilesa/BanerFKielsa.png",
+        "logo":"img/Farmacia/F Kilesa/LogoFKielsa.png",
+        "calificacion":5,
+        "productos":[19, 20, 21]
+    },
+    {
+        "idEmpresa":8,
+        "nombreEmpresa":"Farmacias Simán",
+        "baner":"img/Farmacia/F Siman/BanerFSiman.png",
+        "logo":"img/Farmacia/F Siman/LogoFSiman.png",
+        "calificacion":4,
+        "productos":[22, 23, 24]
+    },
+    {
+        "idEmpresa":9,
+        "nombreEmpresa":"Farmacias del Ahorro",
+        "baner":"img/Farmacia/F del Ahorro/BanerFAhorro.png",
+        "logo":"img/Farmacia/F del Ahorro/LogoFAhorro.png",
+        "calificacion":3,
+        "productos":[25, 26, 27]
+    },
+    {
+        "idEmpresa":10,
+        "nombreEmpresa":"S. La Colonia",
+        "baner":"img/Supermercado/La Colonia/BanerLaColonia.png",
+        "logo":"img/Supermercado/La Colonia/LogoLaColonia.png",
+        "calificacion":3,
+        "productos":[28, 19, 30]
+    },
+    {
+        "idEmpresa":11,
+        "nombreEmpresa":"Despensa Familiar",
+        "baner":"img/Supermercado/Despensa Familiar/BanerDespensa.png",
+        "logo":"img/Supermercado/Despensa Familiar/LogoDespensa.png",
+        "calificacion":4,
+        "productos":[31, 32, 33]
+    },
+    {
+        "idEmpresa":12,
+        "nombreEmpresa":"S. Paiz",
+        "baner":"img/Supermercado/Paiz/BanerPaiz.png",
+        "logo":"img/Supermercado/Paiz/LogoPaiz.png",
+        "calificacion":4,
+        "productos":[34, 35, 36]
     }
+
+    
     
 
 
