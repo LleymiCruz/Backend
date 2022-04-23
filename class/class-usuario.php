@@ -10,41 +10,19 @@ class Usuario{
     
     
     public function __construct(
-        $idUsuario,$nombreUsuario,$apellidoUsuario,$ordenes,$contraseña,$correo
+        $idUsuario,$nombreUsuario,$apellidoUsuario,$correo,$ordenes,$contraseña,
     )
     {
         $this->idUsuario=$idUsuario;
         $this->nombreUsuario=$nombreUsuario;
         $this->apellidoUsuario=$apellidoUsuario;
         $this->correo=$correo;
-        $this->contraseña=$contraseña;
         $this->ordenes=$ordenes;
+        $this->contraseña=$contraseña;
+        
     }
 
-    public static function obtenerUsuarios(){
-
-        $contenidoArchivo=file_get_contents('../data/usuarios.json');
-        echo $contenidoArchivo;
-
-    }
-
-    public static function obtenerUsuario($id){
-        $contenidoArchivo=file_get_contents('../data/usuarios.json');
-        $usuarios=json_decode($contenidoArchivo, true);
-        $usuario=null;
-        for ($i=0; $i <sizeof($usuarios) ; $i++) { 
-            if ($usuarios[$i]["idUsuario"]==$id) { //Que me explique esta linea 
-                $usuario=$usuarios[$i];
-                break;   
-            }
-        }
-        echo json_encode($usuario);
-
-
-    }
-
-
-
+ 
    
 
     /**
@@ -169,6 +147,49 @@ class Usuario{
 
         return $this;
     }
+
+
+    public static function obtenerUsuarios(){
+
+        $contenidoArchivo=file_get_contents('../data/usuarios.json');
+        echo $contenidoArchivo;
+
+    }
+
+    public static function obtenerUsuario($id){
+        $contenidoArchivo=file_get_contents('../data/usuarios.json');
+        $usuarios=json_decode($contenidoArchivo, true);
+        $usuario=null;
+        for ($i=0; $i <sizeof($usuarios) ; $i++) { 
+            if ($usuarios[$i]["idUsuario"]==$id) { 
+                $usuario=$usuarios[$i];
+                break;   
+            }
+        }
+        echo json_encode($usuario);
+
+
+    }
+
+        public function guardarUsuario(){
+            $contenidoArchivo = file_get_contents("../data/usuarios.json");
+            $usuarios = json_decode($contenidoArchivo,true);
+            $usuarios[]=array(
+                "idUsuario"=>$this->idUsuario,
+                "nombreUsuario"=>$this->nombreUsuario,
+                "apellidoUsuario"=>$this->apellidoUsuario,
+                "correo"=>$this->correo,
+                "ordenes"=>$this->ordenes,
+                "contraseña"=>$this->contraseña
+                
+            );
+            $archivo=fopen('../data/usuarios.json','w');
+            fwrite($archivo,json_encode($usuarios));
+            fclose($archivo);
+            echo '{"codigoResultado":1, "mensaje":"Categoria guardada con exito"}';
+        }
+
+
 }
 
 

@@ -1,20 +1,38 @@
 [
     {
-        "idUsuario":1,
-        "nombreUsuario":"Juan",
-        "apellidoUsuario":"Perez",
-        "correo":"juan@gmail.com",
-        "contraseña":"juan876",
-        "ordenes":[1]
+        "idUsuario": 1,
+        "nombreUsuario": "Juan",
+        "apellidoUsuario": "Perez",
+        "correo": "juan@gmail.com",
+        "contrase\u00f1a": "juan876",
+        "ordenes": [
+            1
+        ]
     },
     {
-        "idUsuario":2,
-        "nombreUsuario":"Sherril",
-        "apellidoUsuario":"Blossom",
-        "correo":"sherril@gmail.com",
-        "contraseña":"cereza2000",
-        "ordenes":[2]
+        "idUsuario": 2,
+        "nombreUsuario": "Sherril",
+        "apellidoUsuario": "Blossom",
+        "correo": "sherril@gmail.com",
+        "contrase\u00f1a": "cereza2000",
+        "ordenes": [
+            2
+        ]
+    },
+    {
+        "idUsuario": 1,
+        "nombreUsuario": "Daniel",
+        "apellidoUsuario": "Moralez",
+        "correo": "@gmail.com",
+        "ordenes": 2,
+        "contrase\u00f1a": "Mexico"
+    },
+    {
+        "idUsuario": 4,
+        "nombreUsuario": "lleymi",
+        "apellidoUsuario": "Cruz",
+        "correo": "bicho@gmail.com",
+        "ordenes": 3,
+        "contrase\u00f1a": "holamundo04"
     }
-    
-
 ]
