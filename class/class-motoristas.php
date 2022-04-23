@@ -18,12 +18,12 @@
        $ordenesTomadas,
         )
         {
-            $this->  idMotorista->  $idMotorista;
-            $this->  nombreMotorista->   $nombreMotorista;
-            $this-> apellidoMotorista-> $apellidoMotorista;
-            $this-> correo ->  $correo;
-            $this-> contraseña -> $contraseña;
-            $this->ordenesTomadas->  $ordenesTomadas;
+            $this->  idMotorista=  $idMotorista;
+            $this->  nombreMotorista=  $nombreMotorista;
+            $this-> apellidoMotorista= $apellidoMotorista;
+            $this-> correo =  $correo;
+            $this-> contraseña = $contraseña;
+            $this->ordenesTomadas=  $ordenesTomadas;
 
         }
 

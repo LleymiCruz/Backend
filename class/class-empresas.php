@@ -9,6 +9,49 @@
       Private   $calificacion;
       Private  $productos;
 
+
+
+        public function __construct(
+            $idEmpresa,
+              $nombreEmpresa,
+              $baner,
+              $logo,
+              $calificacion,
+             $productos,
+        )
+        {
+            $this->idEmpresa=$idEmpresa;
+            $this-> nombreEmpresa= $nombreEmpresa;
+            $this->  baner=  $baner;
+            $this->  logo= $logo;
+            $this->  calificacion= $calificacion;
+            $this-> productos= $productos;
+            
+        }
+
+
+        public static function obtenerEmpresas(){
+
+            $contenidoArchivo = file_get_contents('../data/empresas.json');
+            
+            echo $contenidoArchivo;
+        }
+
+
+        public static function ObtenerEmpresa($id){
+            $contenidoArchivo=file_get_contents('../data/empresas.json');
+            $empresas=json_decode($contenidoArchivo,true);
+            $empresa=null;
+
+            for ($i=0; $i <sizeof($empresas) ; $i++) { 
+                    if ($empresas[$i]["idEmpresa"]==$id) {
+                        $empresa=$empresas[$i];
+                        break;
+                    }
+            }
+            echo json_encode($empresa);
+        }
+
       /**
        * Get the value of idEmpresa
        */ 
