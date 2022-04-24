@@ -52,34 +52,8 @@
             fwrite($archivo, json_encode($productos));
             fclose($archivo);
             echo '{"codigoResultado":1, "mensaje":"Producto guardado con exito"}';
-       }
- /*           public function guardarProducto($idEmpresa){
-               $contenidoArchivo=file_get_contents('../data/empresas.json');
-               $empresas=json_decode($contenidoArchivo,true);
-               $empresa=null;
-
-                for ($i=0; $i <sizeof($empresas) ; $i++) { 
-                    if($empresas[$i]["idEmpresa"]==$idEmpresa){
-                        $empresa=$empresas[$i];
-                        $empresa["productos"][]=array(
-                            "idProducto"=>$this->idProducto,
-                            "nombreProducto"=>$this->nombreProducto,
-                            "precio"=>$this->precio,
-                            "imagenProducto"=>$this->imagenProducto
-                        );
-                        $empresas[$i]=$empresa;
-                        break;
-                    }
-
-                }
-              
-                $archivo=fopen('../data/ordenes.json'.'w')
-                fwrite($archivo,json_encode($empresas));
-                fclose($archivo);
-
-                echo  '{"codigoResultado":1, "mensaje":"Producto guardado con exito"}';
-            }  */
-
+      }
+ 
       /**
        * Get the value of idProducto
        */ 
