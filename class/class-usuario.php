@@ -147,8 +147,17 @@ class Usuario{
 
         return $this;
     }
+    public static function verificarUsuario($correo, $password){
+        $contenidoArchivo=file_get_contents('../data/usuarios.json');
+        $usuarios=json_decode($contenidoArchivo, true);
+        for ($i=0; $i <sizeof($usuarios) ; $i++) { 
+            if ($usuarios[$i]["correo"]==$correo && $usuarios[$i]["contrasena"]==sha1($password)) { 
+                return $usuarios[$i]; 
+            }
+        }
+        return null;
 
-
+    }
     public static function obtenerUsuarios(){
 
         $contenidoArchivo=file_get_contents('../data/usuarios.json');
