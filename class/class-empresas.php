@@ -17,7 +17,7 @@
               $baner,
               $logo,
               $calificacion,
-             $productos,
+             $productos
         )
         {
             $this->idEmpresa=$idEmpresa;
@@ -52,13 +52,13 @@
             echo json_encode($empresa);
       }
 
-      public static function ObtenerEmpresasPorCategorias($idCategoria){
+      public static function ObtenerEmpresasPorCategoria($idCategoria){
             $contenidoArchivoCategorias=file_get_contents('../data/categorias.json');
             $categorias=json_decode($contenidoArchivoCategorias,true);
             $categoria=null;
 
             for ($i=0; $i <sizeof($categorias) ; $i++) { 
-                  if ($categorias[$i]["idEmpresa"]==$id) {
+                  if ($categorias[$i]["idCategoria"]==$idCategoria) {
                         $categoria=$categorias[$i];
                         break;
                   }
