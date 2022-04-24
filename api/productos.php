@@ -20,6 +20,8 @@ switch ($_SERVER['REQUEST_METHOD']) {
     case 'GET':
         if (isset($_GET['idProducto'])) {
             Producto::obtenerProducto($_GET['idProducto']);
+        }if (isset($_GET['idEmpresa'])) {
+            Producto::ObtenerProductosPorEmpresa($_GET['idEmpresa']);
         }
         else{
             Producto::obtenerProductos();

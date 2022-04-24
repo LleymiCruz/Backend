@@ -30,15 +30,15 @@
         }
 
 
-        public static function obtenerEmpresas(){
+      public static function obtenerEmpresas(){
 
             $contenidoArchivo = file_get_contents('../data/empresas.json');
             
             echo $contenidoArchivo;
-        }
+      }
 
 
-        public static function ObtenerEmpresa($id){
+      public static function ObtenerEmpresa($id){
             $contenidoArchivo=file_get_contents('../data/empresas.json');
             $empresas=json_decode($contenidoArchivo,true);
             $empresa=null;
@@ -50,7 +50,30 @@
                     }
             }
             echo json_encode($empresa);
-        }
+      }
+
+      public static function ObtenerEmpresasPorCategorias($idCategoria){
+            $contenidoArchivoCategorias=file_get_contents('../data/categorias.json');
+            $categorias=json_decode($contenidoArchivoCategorias,true);
+            $categoria=null;
+
+            for ($i=0; $i <sizeof($categorias) ; $i++) { 
+                  if ($categorias[$i]["idEmpresa"]==$id) {
+                        $categoria=$categorias[$i];
+                        break;
+                  }
+            }
+            $contenidoArchivoEmpresas=file_get_contents('../data/empresas.json');
+            $empresas=json_decode($contenidoArchivoEmpresas,true);
+            $resultadoEmpresas=array();
+            for ($i=0; $i <sizeof($empresas) ; $i++) { 
+                  if(in_array($empresas[$i]["idEmpresa"], $categoria["empresas"])){
+                        $resultadoEmpresas[]=$empresas[$i];
+                  }
+            }
+
+            echo json_encode($resultadoEmpresas);
+      }
 
       /**
        * Get the value of idEmpresa

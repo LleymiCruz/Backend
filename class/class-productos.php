@@ -39,6 +39,28 @@
             }
             echo json_encode($producto);
       }
+      public static function ObtenerProductosPorEmpresa($idEmpresa){
+            $contenidoArchivoEmpresas=file_get_contents('../data/empresas.json');
+            $empresas=json_decode($contenidoArchivoEmpresas,true);
+            $empresa=null;
+
+            for ($i=0; $i <sizeof($empresas) ; $i++) { 
+                  if ($empresas[$i]["idEmpresa"]==$idEmpresa) {
+                        $empresa=$empresas[$i];
+                        break;
+                  }
+            }
+            $contenidoArchivoProductos=file_get_contents('../data/productos.json');
+            $productos=json_decode($contenidoArchivoProductos,true);
+            $resultadoProductos=array();
+            for ($i=0; $i <sizeof($productos) ; $i++) { 
+                  if(in_array($productos[$i]["idProducto"], $empresa["productos"])){
+                        $resultadoProductos[]=$productos[$i];
+                  }
+            }
+
+            echo json_encode($resultadoProductos);
+      }
       public function guardarProducto(){
             $contenidoArchivoProductos=file_get_contents('../data/productos.json');
             $productos= json_decode($contenidoArchivoProductos, true);
