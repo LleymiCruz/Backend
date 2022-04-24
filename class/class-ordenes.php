@@ -1,6 +1,6 @@
 <?php 
 
-    class Ordenes{
+    class Orden{
 
       Private  $idOrden;
       Private $estadoOrden;

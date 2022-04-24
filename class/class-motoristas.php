@@ -1,5 +1,5 @@
 <?php 
-    class Motoristas{
+    class Motorista{
 
      Private   $idMotorista;
      Private    $nombreMotorista;
@@ -56,12 +56,12 @@
             $motoristas=json_decode($contenidoArchivoMotoristas,true);
 
             $motoristas[]=array(
-        "idMotorista"=>$this->idMotrista,
-        "nombreMotorista"=>$this->nombreMotorista,
-        "apellidoMotorista"=>$this->apellidoMotorista,
-        "correo"=>$this->correo,
-        "contraseña"=>$this->contraseña,
-        
+                    "idMotorista"=>$this->idMotrista,
+                    "nombreMotorista"=>$this->nombreMotorista,
+                    "apellidoMotorista"=>$this->apellidoMotorista,
+                    "correo"=>$this->correo,
+                    "contraseña"=>$this->contraseña,
+                    
 
             );
             $arhivo=fopen('../data/motoristas.json','w');

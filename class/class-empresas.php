@@ -1,6 +1,6 @@
 <?php 
 
-    class Empresas{
+    class Empresa{
 
       Private  $idEmpresa;
       Private   $nombreEmpresa;

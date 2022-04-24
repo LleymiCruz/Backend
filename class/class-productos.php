@@ -1,6 +1,6 @@
 <?php 
 
-    class Productos{
+    class Producto{
 
         
       Private $idProducto;
@@ -22,34 +22,23 @@
           $this->imagenProducto=$imagenProducto;
         }
 
-        public static function ObtenerProductos($idEmpresa){
-            $contenidoArchivo=file_get_contents('../data/empresas.json');
-            $empresas=json_decode( $contenidoArchivo, true);
-            $empresa=null;
-            for ($i=0; $i < sizeof($empresas); $i++) { 
-                if ($empresas[$i]["idEmpresa"]==$idEmpresa) {
-                    $empresa=$empresas[$i];
+      public static function obtenerProductos(){
+            $contenidoArchivo=file_get_contents('../data/usuarios.json');
+            echo $contenidoArchivo;
+      }
+        
+      public static function obtenerUsuario($id){
+            $contenidoArchivo=file_get_contents('../data/usuarios.json');
+            $usuarios=json_decode($contenidoArchivo, true);
+            $usuario=null;
+            for ($i=0; $i <sizeof($usuarios) ; $i++) { 
+                if ($usuarios[$i]["idUsuario"]==$id) {
+                    $usuario=$usuarios[$i];
                     break;
                 }
             }
-
-
-            $contenidoArchivoProductos = file_get_contents('../data/productos.json');
-            $productos=json_decode($contenidoArchivoProductos);
-
-            $resultadoProductos=array();
-                for ($i=0; $i < sizeof($productos); $i++) { 
-                  if(in_array($productos[$i]["idEmpresas"],$empresa["productos"])){
-                        $resultadoProductos=$productos[$i];
-                  }  
-                };
-
-                    echo json_encode($resultadoProductos);
-            
-
-        }
-
-
+            echo json_encode($usuario);
+      }
  /*           public function guardarProducto($idEmpresa){
                $contenidoArchivo=file_get_contents('../data/empresas.json');
                $empresas=json_decode($contenidoArchivo,true);
