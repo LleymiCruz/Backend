@@ -23,22 +23,36 @@
         }
 
       public static function obtenerProductos(){
-            $contenidoArchivo=file_get_contents('../data/usuarios.json');
+            $contenidoArchivo=file_get_contents('../data/productos.json');
             echo $contenidoArchivo;
       }
         
-      public static function obtenerUsuario($id){
-            $contenidoArchivo=file_get_contents('../data/usuarios.json');
-            $usuarios=json_decode($contenidoArchivo, true);
-            $usuario=null;
-            for ($i=0; $i <sizeof($usuarios) ; $i++) { 
-                if ($usuarios[$i]["idUsuario"]==$id) {
-                    $usuario=$usuarios[$i];
+      public static function obtenerProducto($idProducto){
+            $contenidoArchivo=file_get_contents('../data/productos.json');
+            $productos=json_decode($contenidoArchivo, true);
+            $producto=null;
+            for ($i=0; $i <sizeof($productos) ; $i++) { 
+                if ($productos[$i]["idProducto"]==$idProducto) {
+                    $producto=$productos[$i];
                     break;
                 }
             }
-            echo json_encode($usuario);
+            echo json_encode($producto);
       }
+      public function guardarProducto(){
+            $contenidoArchivoProductos=file_get_contents('../data/productos.json');
+            $productos= json_decode($contenidoArchivoProductos, true);
+            $productos[]=array(
+                    "idProducto"=>$this->idProducto,
+                    "nombreProducto"=>$this->nombreProducto,
+                    "precio"=>$this->precio,
+                    "imagenProducto"=>$this->imagenProducto,
+            );
+            $archivo=fopen('../data/productos.json' , 'w');
+            fwrite($archivo, json_encode($productos));
+            fclose($archivo);
+            echo '{"codigoResultado":1, "mensaje":"Producto guardado con exito"}';
+       }
  /*           public function guardarProducto($idEmpresa){
                $contenidoArchivo=file_get_contents('../data/empresas.json');
                $empresas=json_decode($contenidoArchivo,true);

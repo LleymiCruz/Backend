@@ -1,224 +1,218 @@
 [
-    {
-        "idProducto":1,
-        "nombreProducto":"Duo Crispy",
-        "precio":129.00,
-        "imagenProducto":"img/Comida/McDonalds/Crispy.png"
-    },
-    {
-        "idProducto":2,
-        "nombreProducto":"Big Mac",
-        "precio":127.00,
-        "imagenProducto":"img/Comida/McDonalds/Big Mac.png"
-    },
-    {
-        "idProducto":3,
-        "nombreProducto":"Cajita Feliz",
-        "precio":161.00,
-        "imagenProducto":"img/Comida/McDonalds/Cajita Feliz.png"
-    },
-    {
-        "idProducto":4,
-        "nombreProducto":"Hawaiana",
-        "precio":320.00,
-        "imagenProducto":"img/Comida/Dominos pizza/Hawaiana.png"
-    },
-    {
-        "idProducto":5,
-        "nombreProducto":"Veggie",
-        "precio":350.00,
-        "imagenProducto":"img/Comida/Dominos pizza/Veggie.png"
-    },
-    {
-        "idProducto":6,
-        "nombreProducto":"Pepperoni",
-        "precio":250.00,
-        "imagenProducto":"img/Comida/Dominos pizza/Pepperoni.png"
-    },
-    {
-        "idProducto":7,
-        "nombreProducto":"Pescado Frito",
-        "precio":380.00,
-        "imagenProducto":"img/Comida/El morito/Pescado frito.png"
-    },
-    {
-        "idProducto":8,
-        "nombreProducto":"Langosta al ajillo",
-        "precio":480.00,
-        "imagenProducto":"img/Comida/El morito/Langosta al ajillo.png"
-    },
-    {
-        "idProducto":9,
-        "nombreProducto":"Filete relleno de camarones",
-        "precio":420.00,
-        "imagenProducto":"img/Comida/El morito/Filete relleno de camarones.png"
-    },
-    {
-        "idProducto":10,
-        "nombreProducto":"Agenda Diaria",
-        "precio":465.00,
-        "imagenProducto":"img/Utiles/Utiles de Honduras/Agenda diaria.png"
-    },
-    {
-        "idProducto":11,
-        "nombreProducto":"Notas Neón",
-        "precio":63.00,
-        "imagenProducto":"img/Utiles/Utiles de Honduras/Notas neon.png"
-    },
-    {
-        "idProducto":12,
-        "nombreProducto":"Portaminas Filgo",
-        "precio":15.00,
-        "imagenProducto":"img/Utiles/Utiles de Honduras/Portamonas filgo.png"
-    },
-    {
-        "idProducto":13,
-        "nombreProducto":"Acuarelas Mate",
-        "precio":180.00,
-        "imagenProducto":"img/Utiles/Pacasa/Acuarelas mate.png"
-    },
-    {
-        "idProducto":14,
-        "nombreProducto":"Rotuladores",
-        "precio":63.00,
-        "imagenProducto":"img/Utiles/Pacasa/Rotuladores.png"
-    },
-    {
-        "idProducto":15,
-        "nombreProducto":"Lápices de colores",
-        "precio":31.00,
-        "imagenProducto":"img/Utiles/Pacasa/Lapices de colores.png"
-    },
-    {
-        "idProducto":16,
-        "nombreProducto":"Archivador",
-        "precio":67.00,
-        "imagenProducto":"img/Utiles/Acosa/Archivador.png"
-    },
-    {
-        "idProducto":17,
-        "nombreProducto":"Perforadora",
-        "precio":88.00,
-        "imagenProducto":"img/Utiles/Acosa/Perforadora.png"
-    },
-    {
-        "idProducto":18,
-        "nombreProducto":"Tablero T",
-        "precio":53.00,
-        "imagenProducto":"img/Utiles/Acosa/Tablero t.png"
-    },
-    {
-        "idProducto":19,
-        "nombreProducto":"Magnatil",
-        "precio":569.00,
-        "imagenProducto":"img/Farmacia/F Kilesa/Magnatil.png"
-    },
-    {
-        "idProducto":20,
-        "nombreProducto":"Daibion Cap",
-        "precio":682.00,
-        "imagenProducto":"img/Farmacia/F Kilesa/Daibion Cap.png"
-    },
-    {
-        "idProducto":21,
-        "nombreProducto":"Gamabenceno Plus Cream",
-        "precio":220.00,
-        "imagenProducto":"img/Farmacia/F Kilesa/Gamabenceno Crema.png"
-    },
-    {
-        "idProducto":22,
-        "nombreProducto":"Pacinos(Pasta Cabello)",
-        "precio":374.50,
-        "imagenProducto":"img/Farmacia/F Siman/Pacinos pasta cabello.png"
-    },
-    {
-        "idProducto":23,
-        "nombreProducto":"Haan Satinizante",
-        "precio":141.35,
-        "imagenProducto":"img/Farmacia/F Siman/Haan satinizante.png"
-    },
-    {
-        "idProducto":24,
-        "nombreProducto":"Sudagrip Jarabe",
-        "precio":119.62,
-        "imagenProducto":"img/Farmacia/F Siman/Sudagrip jarabe.png"
-    },
-    {
-        "idProducto":25,
-        "nombreProducto":"Vitamina C 500mg",
-        "precio":97.60,
-        "imagenProducto":"img/Farmacia/F del Ahorro/Vitamina C 500mg.png"
-    },
-    {
-        "idProducto":26,
-        "nombreProducto":"Daibion Cap",
-        "precio":642.32,
-        "imagenProducto":"img/Farmacia/F del Ahorro/Daibion Cap.png"
-    },
-    {
-        "idProducto":27,
-        "nombreProducto":"Triple Antibiotico 200gr",
-        "precio":161.66,
-        "imagenProducto":"img/Farmacia/F del Ahorro/Triple antibiotico.png"
-    },
-    {
-        "idProducto":28,
-        "nombreProducto":"Jamon de Pavo (1/2L)",
-        "precio":69.90,
-        "imagenProducto":"img/Supermercado/La Colonia/Jamon de pavo.png"
-    },
-    {
-        "idProducto":29,
-        "nombreProducto":"Leche Evaporada (554gr)",
-        "precio":128.00,
-        "imagenProducto":"img/Supermercado/La Colonia/Leche evaporada.png"
-    },
-    {
-        "idProducto":30,
-        "nombreProducto":"Leche Condensada (395gr)",
-        "precio":43.90,
-        "imagenProducto":"img/Supermercado/La Colonia/Leche condensada.png"
-    },
-    {
-        "idProducto":31,
-        "nombreProducto":"Crema Sula (454gr)",
-        "precio":25.90,
-        "imagenProducto":"img/Supermercado/Despensa Familiar/Crema sula.png"
-    },
-    {
-        "idProducto":32,
-        "nombreProducto":"Yogurt Melocoton (125gr)",
-        "precio":18.00,
-        "imagenProducto":"img/Supermercado/Despensa Familiar/Yogurt.png"
-    },
-    {
-        "idProducto":33,
-        "nombreProducto":"Uva Roja (1L)",
-        "precio":43.90,
-        "imagenProducto":"img/Supermercado/Despensa Familiar/uva.png"
-    },
-    {
-        "idProducto":34,
-        "nombreProducto":"Mayonesa Clasica (400gr)",
-        "precio":43.40,
-        "imagenProducto":"img/Supermercado/Paiz/Mayonesa clasica.png"
-    },
-    {
-        "idProducto":35,
-        "nombreProducto":"Cerveza Port Royal",
-        "precio":17.50,
-        "imagenProducto":"img/Supermercado/Paiz/Cerveza port royal.png"
-    },
-    {
-        "idProducto":36,
-        "nombreProducto":"Frito Catracho",
-        "precio":38.00,
-        "imagenProducto":"img/Supermercado/Paiz/Frito catracho.png"
-    }
-    
-    
-    
-    
-    
-    
+  {
+    "idProducto": 1,
+    "nombreProducto": "Duo Crispy",
+    "precio": 129,
+    "imagenProducto": "img/Comida/McDonalds/Crispy.png"
+  },
+  {
+    "idProducto": 2,
+    "nombreProducto": "Big Mac",
+    "precio": 127,
+    "imagenProducto": "img/Comida/McDonalds/Big Mac.png"
+  },
+  {
+    "idProducto": 3,
+    "nombreProducto": "Cajita Feliz",
+    "precio": 161,
+    "imagenProducto": "img/Comida/McDonalds/Cajita Feliz.png"
+  },
+  {
+    "idProducto": 4,
+    "nombreProducto": "Hawaiana",
+    "precio": 320,
+    "imagenProducto": "img/Comida/Dominos pizza/Hawaiana.png"
+  },
+  {
+    "idProducto": 5,
+    "nombreProducto": "Veggie",
+    "precio": 350,
+    "imagenProducto": "img/Comida/Dominos pizza/Veggie.png"
+  },
+  {
+    "idProducto": 6,
+    "nombreProducto": "Pepperoni",
+    "precio": 250,
+    "imagenProducto": "img/Comida/Dominos pizza/Pepperoni.png"
+  },
+  {
+    "idProducto": 7,
+    "nombreProducto": "Pescado Frito",
+    "precio": 380,
+    "imagenProducto": "img/Comida/El morito/Pescado frito.png"
+  },
+  {
+    "idProducto": 8,
+    "nombreProducto": "Langosta al ajillo",
+    "precio": 480,
+    "imagenProducto": "img/Comida/El morito/Langosta al ajillo.png"
+  },
+  {
+    "idProducto": 9,
+    "nombreProducto": "Filete relleno de camarones",
+    "precio": 420,
+    "imagenProducto": "img/Comida/El morito/Filete relleno de camarones.png"
+  },
+  {
+    "idProducto": 10,
+    "nombreProducto": "Agenda Diaria",
+    "precio": 465,
+    "imagenProducto": "img/Utiles/Utiles de Honduras/Agenda diaria.png"
+  },
+  {
+    "idProducto": 11,
+    "nombreProducto": "Notas Ne\u00f3n",
+    "precio": 63,
+    "imagenProducto": "img/Utiles/Utiles de Honduras/Notas neon.png"
+  },
+  {
+    "idProducto": 12,
+    "nombreProducto": "Portaminas Filgo",
+    "precio": 15,
+    "imagenProducto": "img/Utiles/Utiles de Honduras/Portamonas filgo.png"
+  },
+  {
+    "idProducto": 13,
+    "nombreProducto": "Acuarelas Mate",
+    "precio": 180,
+    "imagenProducto": "img/Utiles/Pacasa/Acuarelas mate.png"
+  },
+  {
+    "idProducto": 14,
+    "nombreProducto": "Rotuladores",
+    "precio": 63,
+    "imagenProducto": "img/Utiles/Pacasa/Rotuladores.png"
+  },
+  {
+    "idProducto": 15,
+    "nombreProducto": "L\u00e1pices de colores",
+    "precio": 31,
+    "imagenProducto": "img/Utiles/Pacasa/Lapices de colores.png"
+  },
+  {
+    "idProducto": 16,
+    "nombreProducto": "Archivador",
+    "precio": 67,
+    "imagenProducto": "img/Utiles/Acosa/Archivador.png"
+  },
+  {
+    "idProducto": 17,
+    "nombreProducto": "Perforadora",
+    "precio": 88,
+    "imagenProducto": "img/Utiles/Acosa/Perforadora.png"
+  },
+  {
+    "idProducto": 18,
+    "nombreProducto": "Tablero T",
+    "precio": 53,
+    "imagenProducto": "img/Utiles/Acosa/Tablero t.png"
+  },
+  {
+    "idProducto": 19,
+    "nombreProducto": "Magnatil",
+    "precio": 569,
+    "imagenProducto": "img/Farmacia/F Kilesa/Magnatil.png"
+  },
+  {
+    "idProducto": 20,
+    "nombreProducto": "Daibion Cap",
+    "precio": 682,
+    "imagenProducto": "img/Farmacia/F Kilesa/Daibion Cap.png"
+  },
+  {
+    "idProducto": 21,
+    "nombreProducto": "Gamabenceno Plus Cream",
+    "precio": 220,
+    "imagenProducto": "img/Farmacia/F Kilesa/Gamabenceno Crema.png"
+  },
+  {
+    "idProducto": 22,
+    "nombreProducto": "Pacinos(Pasta Cabello)",
+    "precio": 374.5,
+    "imagenProducto": "img/Farmacia/F Siman/Pacinos pasta cabello.png"
+  },
+  {
+    "idProducto": 23,
+    "nombreProducto": "Haan Satinizante",
+    "precio": 141.35,
+    "imagenProducto": "img/Farmacia/F Siman/Haan satinizante.png"
+  },
+  {
+    "idProducto": 24,
+    "nombreProducto": "Sudagrip Jarabe",
+    "precio": 119.62,
+    "imagenProducto": "img/Farmacia/F Siman/Sudagrip jarabe.png"
+  },
+  {
+    "idProducto": 25,
+    "nombreProducto": "Vitamina C 500mg",
+    "precio": 97.6,
+    "imagenProducto": "img/Farmacia/F del Ahorro/Vitamina C 500mg.png"
+  },
+  {
+    "idProducto": 26,
+    "nombreProducto": "Daibion Cap",
+    "precio": 642.32,
+    "imagenProducto": "img/Farmacia/F del Ahorro/Daibion Cap.png"
+  },
+  {
+    "idProducto": 27,
+    "nombreProducto": "Triple Antibiotico 200gr",
+    "precio": 161.66,
+    "imagenProducto": "img/Farmacia/F del Ahorro/Triple antibiotico.png"
+  },
+  {
+    "idProducto": 28,
+    "nombreProducto": "Jamon de Pavo (1/2L)",
+    "precio": 69.9,
+    "imagenProducto": "img/Supermercado/La Colonia/Jamon de pavo.png"
+  },
+  {
+    "idProducto": 29,
+    "nombreProducto": "Leche Evaporada (554gr)",
+    "precio": 128,
+    "imagenProducto": "img/Supermercado/La Colonia/Leche evaporada.png"
+  },
+  {
+    "idProducto": 30,
+    "nombreProducto": "Leche Condensada (395gr)",
+    "precio": 43.9,
+    "imagenProducto": "img/Supermercado/La Colonia/Leche condensada.png"
+  },
+  {
+    "idProducto": 31,
+    "nombreProducto": "Crema Sula (454gr)",
+    "precio": 25.9,
+    "imagenProducto": "img/Supermercado/Despensa Familiar/Crema sula.png"
+  },
+  {
+    "idProducto": 32,
+    "nombreProducto": "Yogurt Melocoton (125gr)",
+    "precio": 18,
+    "imagenProducto": "img/Supermercado/Despensa Familiar/Yogurt.png"
+  },
+  {
+    "idProducto": 33,
+    "nombreProducto": "Uva Roja (1L)",
+    "precio": 43.9,
+    "imagenProducto": "img/Supermercado/Despensa Familiar/uva.png"
+  },
+  {
+    "idProducto": 34,
+    "nombreProducto": "Mayonesa Clasica (400gr)",
+    "precio": 43.4,
+    "imagenProducto": "img/Supermercado/Paiz/Mayonesa clasica.png"
+  },
+  {
+    "idProducto": 35,
+    "nombreProducto": "Cerveza Port Royal",
+    "precio": 17.5,
+    "imagenProducto": "img/Supermercado/Paiz/Cerveza port royal.png"
+  },
+  {
+    "idProducto": 36,
+    "nombreProducto": "Frito Catracho",
+    "precio": 38,
+    "imagenProducto": "img/Supermercado/Paiz/Frito catracho.png"
+  }
 ]

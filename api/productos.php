@@ -1,22 +1,24 @@
 <?php
 header("Conten-Type: application/json");
 include_once("../class/class-productos.php");
-
+$_POST= json_decode(file_get_contents('php://input'), true);
 switch ($_SERVER['REQUEST_METHOD']) {
     case 'POST':
-        
-       /* $_POST = json_decode(file_get_contents('php://input'),true);
-        $usuario = new Usuario(
-            $_POST["idUsuario"],$_POST["nombreUsuario"],$_POST["apellidoUsuario"],$_POST["correo"],$_POST["ordenes"],$_POST["contraseña"],
-        );
+        $producto=new Producto(
+                
+            $_POST['idProducto'],
+            $_POST['nombreProducto'],
+            $_POST['precio'],
+            $_POST['imagenProducto']
 
-        $usuario->guardarUsuario();
-        $resultado['mensaje'] = "Guardaur usuario informacion : " .json_encode($_POST);
-        echo json_encode($resultado);
-        break;*/
+        );
+        $producto->guardarProducto();
+        
+       
+        break;
     
     case 'GET':
-        if (isset($_GET['idproducto'])) {
+        if (isset($_GET['idProducto'])) {
             Producto::obtenerProducto($_GET['idProducto']);
         }
         else{
