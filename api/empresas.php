@@ -12,9 +12,8 @@ switch ($_SERVER['REQUEST_METHOD']) {
         if (isset($_GET['idEmpresa'])) {
             Empresa::obtenerEmpresa($_GET['idEmpresa']);
         }if (isset($_GET['idCategoria'])) {
-            Empresa::ObtenerEmpresasPorCategoria($_GET['idCategoria']);
-        }
-        else{
+            Empresa::obtenerEmpresasPorCategoria($_GET['idCategoria']);
+        }if($_GET==null){
             Empresa::obtenerEmpresas();
         }
 

@@ -20,7 +20,7 @@
         "idEmpresa":3,
         "nombreEmpresa":"El Morito",
         "baner":"img/Comida/El morito/BanerElMorito.png",
-        "logo":"img/Comida/Dominos pizza/LogoEl Morito.png",
+        "logo":"img/Comida/EL morito/LogoElMorito.png",
         "calificacion":5,
         "productos":[7, 8, 9]
     },
@@ -51,8 +51,8 @@
     {
         "idEmpresa":7,
         "nombreEmpresa":"Farmacias Kielsa",
-        "baner":"img/Farmacia/F Kilesa/BanerFKielsa.png",
-        "logo":"img/Farmacia/F Kilesa/LogoFKielsa.png",
+        "baner":"img/Farmacia/F Kielsa/BanerFKielsa.png",
+        "logo":"img/Farmacia/F Kielsa/LogoFKielsa.png",
         "calificacion":5,
         "productos":[19, 20, 21]
     },

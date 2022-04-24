@@ -38,7 +38,7 @@
       }
 
 
-      public static function ObtenerEmpresa($id){
+      public static function obtenerEmpresa($id){
             $contenidoArchivo=file_get_contents('../data/empresas.json');
             $empresas=json_decode($contenidoArchivo,true);
             $empresa=null;
@@ -52,7 +52,7 @@
             echo json_encode($empresa);
       }
 
-      public static function ObtenerEmpresasPorCategoria($idCategoria){
+      public static function obtenerEmpresasPorCategoria($idCategoria){
             $contenidoArchivoCategorias=file_get_contents('../data/categorias.json');
             $categorias=json_decode($contenidoArchivoCategorias,true);
             $categoria=null;

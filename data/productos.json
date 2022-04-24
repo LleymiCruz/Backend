@@ -43,13 +43,13 @@
   },
   {
     "idProducto": 8,
-    "nombreProducto": "Langosta al ajillo",
+    "nombreProducto": "Langosta",
     "precio": 480,
     "imagenProducto": "img/Comida/El morito/Langosta al ajillo.png"
   },
   {
     "idProducto": 9,
-    "nombreProducto": "Filete relleno de camarones",
+    "nombreProducto": "Filete relleno",
     "precio": 420,
     "imagenProducto": "img/Comida/El morito/Filete relleno de camarones.png"
   },
@@ -61,19 +61,19 @@
   },
   {
     "idProducto": 11,
-    "nombreProducto": "Notas Ne\u00f3n",
+    "nombreProducto": "Notas Neon",
     "precio": 63,
     "imagenProducto": "img/Utiles/Utiles de Honduras/Notas neon.png"
   },
   {
     "idProducto": 12,
-    "nombreProducto": "Portaminas Filgo",
+    "nombreProducto": "Portaminas",
     "precio": 15,
-    "imagenProducto": "img/Utiles/Utiles de Honduras/Portamonas filgo.png"
+    "imagenProducto": "img/Utiles/Utiles de Honduras/Portaminas filgo.png"
   },
   {
     "idProducto": 13,
-    "nombreProducto": "Acuarelas Mate",
+    "nombreProducto": "Acuarelas ",
     "precio": 180,
     "imagenProducto": "img/Utiles/Pacasa/Acuarelas mate.png"
   },
@@ -85,7 +85,7 @@
   },
   {
     "idProducto": 15,
-    "nombreProducto": "L\u00e1pices de colores",
+    "nombreProducto": "Lapices de colores",
     "precio": 31,
     "imagenProducto": "img/Utiles/Pacasa/Lapices de colores.png"
   },
@@ -111,19 +111,19 @@
     "idProducto": 19,
     "nombreProducto": "Magnatil",
     "precio": 569,
-    "imagenProducto": "img/Farmacia/F Kilesa/Magnatil.png"
+    "imagenProducto": "img/Farmacia/F Kielsa/Magnatil.png"
   },
   {
     "idProducto": 20,
     "nombreProducto": "Daibion Cap",
     "precio": 682,
-    "imagenProducto": "img/Farmacia/F Kilesa/Daibion Cap.png"
+    "imagenProducto": "img/Farmacia/F Kielsa/Daibion Cap.png"
   },
   {
     "idProducto": 21,
     "nombreProducto": "Gamabenceno Plus Cream",
     "precio": 220,
-    "imagenProducto": "img/Farmacia/F Kilesa/Gamabenceno Crema.png"
+    "imagenProducto": "img/Farmacia/F Kielsa/Gamabenceno Crema.png"
   },
   {
     "idProducto": 22,
@@ -157,7 +157,7 @@
   },
   {
     "idProducto": 27,
-    "nombreProducto": "Triple Antibiotico 200gr",
+    "nombreProducto": "Triple Antibiotico",
     "precio": 161.66,
     "imagenProducto": "img/Farmacia/F del Ahorro/Triple antibiotico.png"
   },
@@ -187,7 +187,7 @@
   },
   {
     "idProducto": 32,
-    "nombreProducto": "Yogurt Melocoton (125gr)",
+    "nombreProducto": "Yogurt  (125gr)",
     "precio": 18,
     "imagenProducto": "img/Supermercado/Despensa Familiar/Yogurt.png"
   },
@@ -199,7 +199,7 @@
   },
   {
     "idProducto": 34,
-    "nombreProducto": "Mayonesa Clasica (400gr)",
+    "nombreProducto": "Mayonesa (400gr)",
     "precio": 43.4,
     "imagenProducto": "img/Supermercado/Paiz/Mayonesa clasica.png"
   },
