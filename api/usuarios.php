@@ -7,7 +7,7 @@ switch ($_SERVER['REQUEST_METHOD']) {
         
         $_POST = json_decode(file_get_contents('php://input'),true);
         $usuario = new Usuario(
-            $_POST["idUsuario"],$_POST["nombreUsuario"],$_POST["apellidoUsuario"],$_POST["correo"],$_POST["ordenes"],$_POST["contraseña"],
+            $_POST["idUsuario"],$_POST["nombreUsuario"],$_POST["apellidoUsuario"],$_POST["correo"],$_POST["ordenes"],$_POST["contrasena"],
         );
 
         $usuario->guardarUsuario();

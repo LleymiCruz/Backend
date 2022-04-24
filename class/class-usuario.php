@@ -6,11 +6,11 @@ class Usuario{
     Private $apellidoUsuario;
     Private $correo;
     Private $ordenes;
-    private $contraseña;
+    private $contrasena;
     
     
     public function __construct(
-        $idUsuario,$nombreUsuario,$apellidoUsuario,$correo,$ordenes,$contraseña,
+        $idUsuario,$nombreUsuario,$apellidoUsuario,$correo,$ordenes,$contrasena
     )
     {
         $this->idUsuario=$idUsuario;
@@ -18,7 +18,7 @@ class Usuario{
         $this->apellidoUsuario=$apellidoUsuario;
         $this->correo=$correo;
         $this->ordenes=$ordenes;
-        $this->contraseña=$contraseña;
+        $this->contrasena=$contrasena;
         
     }
 
@@ -129,21 +129,21 @@ class Usuario{
     }
 
     /**
-     * Get the value of contraseña
+     * Get the value of contrasena
      */ 
-    public function getContraseña()
+    public function getcontrasena()
     {
-        return $this->contraseña;
+        return $this->contrasena;
     }
 
     /**
-     * Set the value of contraseña
+     * Set the value of contrasena
      *
      * @return  self
      */ 
-    public function setContraseña($contraseña)
+    public function setcontrasena($contrasena)
     {
-        $this->contraseña = $contraseña;
+        $this->contrasena = $contrasena;
 
         return $this;
     }
@@ -180,7 +180,7 @@ class Usuario{
                 "apellidoUsuario"=>$this->apellidoUsuario,
                 "correo"=>$this->correo,
                 "ordenes"=>$this->ordenes,
-                "contraseña"=>$this->contraseña
+                "contrasena"=>$this->contrasena
                 
             );
             $archivo=fopen('../data/usuarios.json','w');
