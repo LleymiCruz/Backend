@@ -5,20 +5,21 @@ class Usuario{
     Private $nombreUsuario;
     Private $apellidoUsuario;
     Private $correo;
-    Private $ordenes;
     private $contrasena;
+    Private $ordenes;
+   
     
     
     public function __construct(
-        $idUsuario,$nombreUsuario,$apellidoUsuario,$correo,$ordenes,$contrasena
+        $idUsuario,$nombreUsuario,$apellidoUsuario,$correo,$contrasena, $ordenes
     )
     {
         $this->idUsuario=$idUsuario;
         $this->nombreUsuario=$nombreUsuario;
         $this->apellidoUsuario=$apellidoUsuario;
         $this->correo=$correo;
-        $this->ordenes=$ordenes;
         $this->contrasena=$contrasena;
+        $this->ordenes=$ordenes;
         
     }
 
@@ -188,14 +189,16 @@ class Usuario{
                 "nombreUsuario"=>$this->nombreUsuario,
                 "apellidoUsuario"=>$this->apellidoUsuario,
                 "correo"=>$this->correo,
-                "ordenes"=>$this->ordenes,
-                "contrasena"=>$this->contrasena
+                "contrasena"=>sha1($this->contrasena),
+                "ordenes"=>$this->ordenes
+                
                 
             );
             $archivo=fopen('../data/usuarios.json','w');
             fwrite($archivo,json_encode($usuarios));
             fclose($archivo);
-            echo '{"codigoResultado":1, "mensaje":"Categoria guardada con exito"}';
+            return null;
+        
         }
 
 

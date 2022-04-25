@@ -14,21 +14,5 @@
     "correo": "sherril@gmail.com",
     "contrasena": "b4ffa0114b59ecfbcdce9300994f0baaca3c18dc",
     "ordenes": [2]
-  },
-  {
-    "idUsuario": 1,
-    "nombreUsuario": "Daniel",
-    "apellidoUsuario": "Moralez",
-    "correo": "@gmail.com",
-    "ordenes": 2,
-    "contrasena": "Mexico"
-  },
-  {
-    "idUsuario": 4,
-    "nombreUsuario": "lleymi",
-    "apellidoUsuario": "Cruz",
-    "correo": "bicho@gmail.com",
-    "ordenes": 3,
-    "contrasena": "holamundo04"
   }
 ]
