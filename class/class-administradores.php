@@ -13,7 +13,7 @@
          $nombreAdministrador,
          $apelliAdministrador,
          $correo,
-         $contrasena,
+         $contrasena
         )
         {
             $this->idAministrador=$idAministrador;
