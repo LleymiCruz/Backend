@@ -5,7 +5,7 @@
      Private    $nombreMotorista;
      Private    $apellidoMotorista;
      Private   $correo;
-     Private   $contraseña;
+     Private   $contrasena;
      Private   $ordenesTomadas;
 
 
@@ -14,7 +14,7 @@
        $nombreMotorista,
        $apellidoMotorista,
        $correo,
-       $contraseña,
+       $contrasena,
        $ordenesTomadas,
         )
         {
@@ -22,7 +22,7 @@
             $this->nombreMotorista=  $nombreMotorista;
             $this->apellidoMotorista= $apellidoMotorista;
             $this->correo =  $correo;
-            $this->contraseña = $contraseña;
+            $this->contrasena = $contrasena;
             $this->ordenesTomadas=  $ordenesTomadas;
 
         }
@@ -60,7 +60,7 @@
                     "nombreMotorista"=>$this->nombreMotorista,
                     "apellidoMotorista"=>$this->apellidoMotorista,
                     "correo"=>$this->correo,
-                    "contraseña"=>$this->contraseña,
+                    "contrasena"=>$this->contrasena,
                     
 
             );
@@ -70,6 +70,19 @@
             echo '{"codigoResultado":1, "mensaje":"Motorista guardado con exito"}';
 
         }
+
+
+          public static function verificarUsuario($correo,$password){
+               $contenidoArchivo=file_get_contents('../data/motoristas.json');
+               $motoristas=json_decode($contenidoArchivo,true);
+                    for ($i=0; $i < sizeof($motoristas); $i++) { 
+                         if ($motoristas[$i]["correo"]==$correo && $motoristas[$i]["contrasena"]==sha1($password) ) {
+                              return $motoristas[$i];
+                         }
+                    }
+                    return null;
+          }
+
 
      /**
       * Get the value of idMotorista
@@ -152,21 +165,21 @@
      }
 
      /**
-      * Get the value of contraseña
+      * Get the value of contrasena
       */ 
-     public function getContraseña()
+     public function getContrasena()
      {
-          return $this->contraseña;
+          return $this->contrasena;
      }
 
      /**
-      * Set the value of contraseña
+      * Set the value of contrasena
       *
       * @return  self
       */ 
-     public function setContraseña($contraseña)
+     public function setContrasena($contrasena)
      {
-          $this->contraseña = $contraseña;
+          $this->contrasena = $contrasena;
 
           return $this;
      }

@@ -1,20 +1,22 @@
 [
     {
-        "idMotorista":1,
-        "nombreMotorista":"Alberto",
-        "apellidoMotorista":"Perez",
-        "correo":"alberto@gmail.com",
-        "contraseña":"Ap876",
-        "ordenesTomadas":[1]
+        "idMotorista": 1,
+        "nombreMotorista": "Alberto",
+        "apellidoMotorista": "Perez",
+        "correo": "alberto@gmail.com",
+        "contrasena": "Ap876",
+        "ordenesTomadas": [
+            1
+        ]
     },
     {
-        "idUsuario":2,
-        "nombreUsuario":"Joel",
-        "apellidoUsuario":"Andrés",
-        "correo":"andres@gmail.com",
-        "contraseña":"JA2000",
-        "ordenesTomadas":[2]
+        "idMotorista": 2,
+        "nombreMotorista": "Joel",
+        "apellidoMotorista": "Andr\u00e9s",
+        "correo": "andres@gmail.com",
+        "contrasena": "JA2000",
+        "ordenesTomadas": [
+            2
+        ]
     }
-    
-
 ]
