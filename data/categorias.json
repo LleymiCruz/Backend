@@ -22,11 +22,5 @@
         "nombreCategoria":"Supermercado",
         "imagenCategoria":"img/Supermercado.png",
         "empresas":[10, 11, 12]
-    },
-    {
-        "idCategoria":5,
-        "nombreCategoria":"Paquete",
-        "imagenCategoria":"img/Mandado-Paquete.png",
-        "empresas":[ ]
     }
 ]

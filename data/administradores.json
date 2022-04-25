@@ -1,0 +1,17 @@
+[
+    {
+        "idAministrador": 1,
+        "nombreAdministrador": "Lleymi",
+        "apelliAdministrador": "Cruz",
+        "correo": "lleymi@gmail.com",
+        "contrasena": "040bee673af4d8db33ae4b941cebdd38b47ad8bf"
+    }
+    {
+        "idAministrador": 2,
+        "nombreAdministrador": "Kevin",
+        "apelliAdministrador": "Ponce",
+        "correo": "kevin@gmail.com",
+        "contrasena": "638c89fd48409d8ef3e3a3c9b0a27af8629fef36"
+    }
+
+]
