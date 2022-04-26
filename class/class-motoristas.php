@@ -56,7 +56,7 @@
             $motoristas=json_decode($contenidoArchivoMotoristas,true);
 
             $motoristas[]=array(
-                    "idMotorista"=>$this->idMotrista,
+                    "idMotorista"=>$this->idMotorista,
                     "nombreMotorista"=>$this->nombreMotorista,
                     "apellidoMotorista"=>$this->apellidoMotorista,
                     "correo"=>$this->correo,

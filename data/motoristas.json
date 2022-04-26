@@ -18,5 +18,12 @@
         "ordenesTomadas": [
             2
         ]
+    },
+    {
+        "idMotorista": 3,
+        "nombreMotorista": "Cristiano",
+        "apellidoMotorista": "Ronaldo",
+        "correo": "elbicho@gmail.com",
+        "contrasena": "12345678"
     }
 ]
